@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="Passwordzen" content="Password generator">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,200;1,400&display=swap" rel="stylesheet"> 
+
+		<title>Passwordzen</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div>
+			<section class="hero">
+				<img src="img/logo.png" alt="">
+				<div>
+					<h1></h1>
+					<h2>A password generator </br>for peace of mind</h2>
+					<h3>Protect your accounts with new randomly generated passwords</h3>
+					<form action="#" onsubmit="event.preventDefault()">
+						<div>
+							<input class = "formtext" type="text" disabled>
+						</div>
+						<div >
+							<div class="slider">
+								<input type= "range" value="14" min="8" max="20"/>
+							</br>
+								<output id="rangevalue">14</output>
+								<span>Characters</span>
+							</div>
+						</div>
+						<div>
+							<div class="row">
+								<input type="checkbox" name="uppercase">
+								<span>Uppercase</span>
+							</div>
+							<div class="row">
+								<input checked type="checkbox" name="lowercase">
+								<span>Lowercase</span>
+							</div>
+							<div class="row">
+								<input type="checkbox" name="numbers">
+								<span>Numbers</span>
+							</div>
+							<div class="row">
+								<input type="checkbox" name="symbols">
+								<span>Symbols</span>
+							</div>
+						</div>
+						<button>Generate Password</button>
+					</form>
+				</div>
+			</section>
+			<footer>
+				<div>
+					<p>© Passwordzen 2022</p>
+				</div>
+			</footer>
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

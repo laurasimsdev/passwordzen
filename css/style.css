@@ -1,0 +1,83 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+img {
+  width: 250px;
+}
+
+body {
+  text-align: center;
+  background-image: url("water.jpg");
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(9,27,66);
+}
+
+.hero {
+  height: 650px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 8%;
+  padding: 10px;
+}
+
+.row {
+  display: inline;
+  padding: 10px;
+  accent-color: rgb(9,27,66);
+}
+
+button {
+  margin-top: 30px;
+  padding: 10px;
+  color: rgb(9,27,66);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color:lightgray
+}
+
+button:hover {
+  background-color: azure;
+  border-radius: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.slider {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  accent-color: rgb(9,27,66);
+}
+
+.formtext{
+  text-align: center;
+  width: 70%;
+  color: black;
+  font-size: 25px;
+  padding: 10px;
+}
+
+
+h3 {
+  font-style: italic;
+  font-weight: 400;
+}
+
+footer {
+  font-weight: 700;
+  color: white;
+}
